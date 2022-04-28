@@ -4,7 +4,6 @@ from food import Food
 
 import time
 
-
 # crear escenario
 screen = Screen() #instanciar el objeto
 screen.setup(width=600, height=600)
@@ -37,6 +36,10 @@ while game_is_on:
     # for segment in segments:
     #     segment.forward(20)
     #     segment[0].left(90)
+
+    #Detectar colisión con comida
+    if snake.head.distance(food) < 15:
+        food.refresh()
 
 #Final
 screen.exitonclick()
