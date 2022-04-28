@@ -6,8 +6,9 @@
 Recreating snake game using python and some libraries.
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador">
 
-#Libraries
+<h1>Libraries</h1>
 ☕ Turtle
+<br>
 ☕ Time
 
 <img src="./assets/snake_game.png" />
